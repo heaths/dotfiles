@@ -1,0 +1,9 @@
+[submodule ".vim"]
+	path = .vim
+	url = https://github.com/heaths/vimfiles
+[submodule ".config/helix"]
+	path = .config/helix
+	url = https://github.com/heaths/helix
+[submodule ".config/oh-my-posh"]
+	path = .config/oh-my-posh
+	url = https://github.com/heaths/oh-my-posh

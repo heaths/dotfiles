@@ -1,0 +1,18 @@
+[user]
+	name = Heath Stewart
+	email = heaths@outlook.com
+
+[core]
+	fsmonitor = true
+
+[init]
+	defaultBranch = main
+
+[pull]
+	ff = only
+
+[alias]
+	sync = !git pull -p --ff-only upstream ${1:-main} && git push origin ${1:-main} && git fetch -p origin
+
+[includeIf "hasconfig:remote.*.url:https://github.com/Azure/**"]
+	path = .gitconfig-microsoft
