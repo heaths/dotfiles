@@ -7,3 +7,6 @@
 [submodule ".config/oh-my-posh"]
 	path = .config/oh-my-posh
 	url = https://github.com/heaths/oh-my-posh
+[submodule ".config/zed"]
+	path = .config/zed
+	url = https://github.com/heaths/zed
