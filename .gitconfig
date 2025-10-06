@@ -16,3 +16,6 @@
 
 [includeIf "hasconfig:remote.*.url:https://github.com/Azure/**"]
 	path = .gitconfig-microsoft
+
+[includeIf "hasconfig:remote.*.url:https://github.com/microsoft/**"]
+	path = .gitconfig-microsoft
